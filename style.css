@@ -1,0 +1,767 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* <!-- navbar begins here --> */
+.parent-div {
+  position: fixed;
+  background-position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  font-family: sans-serif;
+  color: gray;
+  align-content: center;
+}
+.hero {
+  background-color: blue;
+  height: 90vh;
+  background-image: url(river.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+.parent-divv {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.parent {
+  width: 95%;
+  margin-left: auto;
+  margin-right: 1px;
+  display: flex;
+  align-items: center;
+}
+.sharply {
+  font-size: x-large;
+}
+.i {
+  color: blue;
+}
+/* <!-- navbar ends here --> */
+/* <!-- hero scetion begins here --> */
+.we {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-content: center;
+}
+.word {
+  font-size: 50px;
+  color: white;
+  font-weight: 100;
+  font-family: inherit;
+  text-align: center;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-content: center;
+}
+.pp {
+  display: block;
+}
+.p {
+  color: white;
+  margin-top: 15px;
+  font-size: medium;
+}
+.first-button {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: rgba(94, 22, 189, 0.664);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-button {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+/* .first-button:hover {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: rgba(123, 58, 207, 0.555);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.sec-button:hover {
+  width: 300px;
+  height: 70px;
+  color: black;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} */
+/* <!-- hero section ends here --> */
+/* <!-- seo friendly section --> */
+.seo-div {
+  height: 50vh;
+  margin-top: 50px;
+}
+.seo {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.fri {
+  font-size: xx-large;
+  font-weight: 200;
+}
+.ptag {
+  font-size: large;
+  color: rgba(46, 45, 45, 0.568);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img3 {
+  width: 50%;
+}
+.friendly {
+  width: 50%;
+}
+.read-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(32, 9, 117, 0.699);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* .read-button:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(85, 58, 207, 0.651);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+} */
+/* <!-- seo ends here --> */
+/* <!-- PORTFOLIO section --> */
+.port-div {
+  height: 70vh;
+  margin-top: 80px;
+  background-color: whitesmoke;
+  align-content: center;
+}
+.portt {
+  display: flex;
+  width: 88%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.fris {
+  font-size: xx-large;
+  font-weight: 200;
+}
+.p-tag {
+  font-size: large;
+  color: rgba(46, 45, 45, 0.568);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.img5 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img4 {
+  width: 79%;
+}
+.friends {
+  width: 50%;
+}
+.read-button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(32, 9, 117, 0.699);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* .read-button1:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(85, 58, 207, 0.651);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+} */
+/* <!-- Paarallax section starts here --> */
+.hh {
+  background-color: blue;
+  height: 100vh;
+  background-image: url(sea.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+.ww {
+  font-size: large;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.pl {
+  color: white;
+  margin-top: 15px;
+  font-size: medium;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first-buttonn {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(85, 58, 207, 0.651);
+  border-color: rgba(85, 58, 207, 0.651);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+/* .first-buttonn:hover {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(102, 86, 175, 0.651);
+  border-color: rgba(85, 58, 207, 0.651);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* <!-- Paarallax section ends here --> */
+/* <!-- limitless options begins here --> */
+.EE {
+  height: 135vh;
+  align-content: center;
+  text-align: center;
+  background-attachment: fixed;
+  background-color: white;
+  text-wrap: wrap;
+}
+.limitless {
+  font-size: 15px;
+  color: BLACK;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  gap: 30px;
+}
+.pX {
+  color: black;
+  margin-top: 12px;
+  font-size: medium;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.download {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(85, 58, 207, 0.651);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: transparent;
+  cursor: pointer;
+}
+/* .download:hover {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(97, 63, 245, 0.651);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgba(85, 58, 207, 0.651);
+} */
+.photo {
+  width: auto;
+  height: auto;
+  margin-top: 19px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: auto;
+}
+/* <!-- limitless options ends here --> */
+/* <!-- our latest project begins here --> */
+.projects {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+.projects h2 {
+  font-size: 47px;
+  font-weight: 100;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+.projects p {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 10px;
+}
+.phot-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+.phot-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.phot-div div {
+  width: calc(100% / 4);
+  cursor: pointer;
+  position: relative;
+}
+
+/* <!-- latest project ends here --> */
+/* <!-- testimonial page starts here --> */
+.tittle {
+  background-image: url(john.jpg);
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 29px;
+  background-position: center;
+  background-size: cover;
+}
+.test {
+  justify-content: center;
+  text-align: center;
+  background-image: url(river.jpg);
+  background-attachment: fixed;
+  height: 45vh;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.tag {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 19px;
+  color: white;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.page {
+  padding-top: 87px;
+  color: white;
+  text-align: center;
+}
+.john {
+  margin-top: 20px;
+  color: white;
+  font-size: medium;
+}
+
+/* testimonial page ends here */
+/* client page starts here */
+.client {
+  height: 29vh;
+  background-color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  padding-top: 29px;
+  color: black;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-wrap: wrap;
+}
+.logo {
+  display: flex;
+  text-wrap: wrap;
+  gap: 100px;
+  width: 87%;
+  margin-top: 49px;
+}
+/* clients page ends here */
+/* faq page begins here */
+.FAQ {
+  height: 29vh;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: black;
+  text-wrap: wrap;
+  gap: 200px;
+}
+.h {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(32, 9, 117, 0.699);
+  border-style: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+/* faq page begins here */
+/* footer page begins here */
+.foot {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  height: 18vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  text-wrap: wrap;
+  padding-top: 96px;
+  gap: 52%;
+  cursor: pointer;
+}
+.fot {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* span:hover {
+  align-items: center;
+  color: blueviolet;
+  justify-content: center;
+} */
+
+/* media query starts here */
+@media (max-width: 834px) {
+  .parent {
+    display: none;
+  }
+  .seo-div {
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .we {
+    font-size: 25px;
+  }
+  .word {
+    font-size: 25px;
+  }
+
+  .hero {
+    height: 45vh;
+  }
+
+  .first-button {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: rgba(94, 22, 189, 0.664);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+  }
+  .sec-button {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+  }
+
+  .hh {
+    height: 45vh;
+  }
+
+  .ww h1 {
+    font-size: 25px;
+  }
+
+  .p1 {
+    font-size: 12px;
+  }
+  .first-buttonn {
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .page {
+    font-size: 25px;
+  }
+
+  .tag {
+    font-size: 11px;
+  }
+
+  .FAQ h1 {
+    font-size: 20px;
+    margin-bottom: -50px;
+  }
+
+  .client h1 {
+    font-size: 30px;
+  }
+
+  .down {
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .ptag {
+    font-size: 12px;
+    justify-items: center;
+  }
+
+  .p-tag {
+    font-size: 12px;
+    justify-items: center;
+  }
+  .seo {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .img3 {
+    width: 100%;
+  }
+  .friendly {
+    width: 100%;
+  }
+  .ptag {
+    width: 100%;
+  }
+  .portt {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .img4 {
+    width: 100%;
+  }
+  .friends {
+    width: 100%;
+  }
+  .p-tag {
+    width: 100%;
+  }
+  .port-div {
+    height: auto;
+  }
+  .projects {
+    height: auto;
+  }
+  .projects h2 {
+    font-size: larger;
+  }
+  .projects p {
+    font-size: small;
+  }
+  .photo {
+    width: 100%;
+  }
+  .EE {
+    height: auto;
+  }
+  .phot-div div {
+    width: calc(100% / 1);
+  }
+  .test {
+    height: 45vh;
+  }
+  .client {
+    width: auto;
+  }
+  .logo {
+    gap: 15px;
+  }
+  .FAQ {
+    height: auto;
+  }
+  .h {
+    font-size: 30px;
+  }
+  .foot {
+    height: auto;
+  }
+  .FAQ {
+    gap: 5%;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+  .h {
+    width: 90%;
+  }
+  .foot {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+  }
+  .fot {
+    margin-bottom: 200px;
+  }
+}
